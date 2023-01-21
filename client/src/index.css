@@ -1,1 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;500;600;700&display=swap');
 
+html,
+body,
+#root,
+.app {
+    height: 100%;
+    width: 100%;
+    font-family: 'Familjen Grotesk', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f25f4c;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #a7a9be;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover {
+    background: #a7a9be;
+}
